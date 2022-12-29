@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Js Handson - 10 { Functions() }</title>
+</head>
+
+<body>
+    <h1>JavaScript Handson - 10 Function(){...}</h1>
+    <br>
+    <pre><p>Q.1) Create one function with zero parameter having a console statement?</p></pre>
+    <pre>Ans: <h3>
+                        function zeroPara(){
+                            console.log("Hello");
+                        }
+                        
+                        zeroPara();
+    </h3></pre><br>
+    <hr>
+    <pre><p>Q.2) Create one function which takes two values as a parameter and print the sum of them as "Sum of 3, 4 is 7"?</p></pre>
+    <pre>Ans: <h3>
+                        function sum(a, b){
+                            var c = a + b;
+                            console.log("Sum of " + a + "," + b + " is "+ c);
+                        }
+                        
+                        sum(3, 4);
+    </h3></pre><br>
+    <hr>
+    <pre><p>Q.3) Create one arrow function?</p></pre>
+    <pre>Ans: <h3>
+                        const func => (n){
+                            console.log(n);
+                        }
+    </h3></pre><br>
+    <hr>
+    <pre><p>Q.4) "Print output: var x = 21; var girl = function () { console.log(x); var x = 20; }; girl ();"?</p></pre>
+    <pre>Ans: <h3>
+                        Output: "undefined";
+    </h3></pre><br>
+    <hr>
+    <pre><p>Q.5) "Print output: var x = 21; girl (); console.log(x) function girl() { console.log(x); var x = 20; }; "</p></pre>
+    <pre>Ans: <h3>
+                        Output: undefined;
+                                21;
+    </h3></pre><br>
+    <hr>
+    <pre><p>Q.6) "Print output var x = 21; a(); b(); function a() { x = 20; console.log(x); }; function b() { x = 40; console.log(x); };"?</p></pre>
+    <pre>Ans: <h3>
+                        Output: 20;
+                                40;
+    </h3></pre><br>
+    <hr>
+    <pre><p>Q.7) Write a function that accepts parameter n and returns factorial of n?</p></pre>
+    <pre>Ans: <h3>
+                        let x = 6;
+                        function factorial(x){
+                            let count = 1;
+                            if (x == 0 || x == 1){
+                            return answer;
+                            }else{
+                            for(var i = x; i >= 1; i--){
+                                count *= i;
+                            }
+                            return count;
+                            }  
+                        }
+                        console.log("The factorial of " + x + " is " + factorial(x));
+    </h3></pre><br><hr>
+    <hr>
+</body>
+
+</html>

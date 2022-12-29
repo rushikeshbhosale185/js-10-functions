@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+    color: gold;
+}
+h1{
+    text-align: center;
+}
+pre{
+    color: crimson;
+    font-size: larger;
+
+}
+h3{
+    color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 12px;
+    border: 2px dashed lime;
+}
